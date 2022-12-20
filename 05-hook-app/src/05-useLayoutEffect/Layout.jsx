@@ -2,7 +2,7 @@ import React from "react";
 import { Blackquote,Loading} from "../Components/";
 import { useCounter,useFetch } from "./../hooks/index.js";
 
-export const MultipleCustomHooks = () => {
+export const Layout = () => {
     const { counter, increment } = useCounter(1);
     const { data, isLoading, hasError } = useFetch(
     `https://pokeapi.co/api/v2/berry/${counter}`
