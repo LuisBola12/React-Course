@@ -5,7 +5,7 @@ export const Blackquote = ({ message, quote, author }) => {
   const [boxSize, setBoxSize] = useState({ width: 0, height: 0 });
   useLayoutEffect(() => {
     const { width, height } = quoteRef.current.getBoundingClientRect();
-    setBoxSize({width, height});
+    setBoxSize({ width, height });
   }, [quote]);
   return (
     <>

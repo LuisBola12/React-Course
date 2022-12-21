@@ -7,13 +7,15 @@ export const LoginPage = () => {
     <>
       <h1>LoginPage</h1>
       <hr></hr>
+      <pre aria-label="pre">{JSON.stringify(user, null, 3)}</pre>
       <button
         className="btn btn-primary"
         onClick={() => {
           setUser({ id: 123, email: "luis@gamil.com", name: "Luis Bolanos" });
         }}
-      >Set New User</button>
-      <pre>{JSON.stringify(user, null, 3)}</pre>
+      >
+        Set New User
+      </button>
     </>
   );
 };
