@@ -17,7 +17,7 @@ export const SearchHero = () => {
   const onSearchSubmit = (event) => {
     event.preventDefault();
     navigate(`?q=${searchText}`);
-  };
+  };  
   return (
     <>
       <h1>Search</h1>
