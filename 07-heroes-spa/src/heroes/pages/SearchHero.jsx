@@ -1,5 +1,4 @@
 import queryString from "query-string";
-import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { HeroCard } from "../components";
 import { useForm } from "./../../hooks/useForm";
